@@ -265,7 +265,7 @@ def step_impl(context):
     :return: none
     """
     try:
-        assert context.browser.find_element(By.XPATH, "//A[@href='mailto:info@taklimakan.io '][text()='Write to us']"), \
+        assert context.browser.find_element(By.XPATH, "//A[@href='mailto:info@someportal.io '][text()='Write to us']"), \
             'Mailto link was not found'
     except AssertionError:
         create_screenshot(context)

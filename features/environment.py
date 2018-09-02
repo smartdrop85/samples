@@ -62,17 +62,6 @@ def after_all(context):
     # print("after all scenario hook\n")
     context.browser.quit()
 
-
-# def before_scenario(context, scenario):
-#    """
-#    This hook executed before scenario and try to reach Taklimakan main page
-#    :param context: test context
-#    :param scenario: current scenario name (not used for now)
-#    :return: none
-#    """
-#
-#    context.browser.get(context.browser.host)
-
 def after_scenario(context, scenario):
     """
     this should make a screenshot if scenario fails
