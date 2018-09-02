@@ -1,4 +1,3 @@
-This a sample code repo.
-Tests will not start as no url is given.
-Each language sample is in its branch.
-Improvements and thoughtful crirics are welcome.
+1. npm install - install all dependencies
+2. npm test - run tests
+3. Tests wont run as no url is specified in config!
