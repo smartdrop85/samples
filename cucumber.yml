@@ -1,4 +1,0 @@
-#config/cucumber.yml
-## YAML Template
----
-default: --color --format pretty --format html --out results/test_report.html --tags ~@ignore
